@@ -1,3 +1,4 @@
 # Glance
 Glance Configs
-![image](https://github.com/user-attachments/assets/bf666bca-cba1-4bdb-a4ae-c1318a78ac71)
+![image](https://github.com/user-attachments/assets/79519627-6a0c-4b57-97cf-34fa9a1b0bdb)
+
