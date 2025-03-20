@@ -12,7 +12,7 @@ body {
   --color-positive: hsl(116.2deg 34.43% 28%);
   --border-radius: 10px;
   font-family: system-ui;
-  background-image: url("/assets/glc-wp.png"); /* CHANGE ME */
+  background-image: url("/assets/glc-wp.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -69,47 +69,31 @@ body {
    ========================================================================== */
 
 /* iFrame Widget */
-.widget-type-iframe .widget-header {
-  position: relative;
-  gap: 0.5rem;
-}
 
-.widget-type-iframe .widget-header div {
-  visibility: hidden;
-  position: relative;
-  color: transparent !important;
-  font-size: 0 !important;
-  line-height: 0 !important;
-  overflow: hidden !important;
-  max-height: 0 !important;
-  max-width: 0 !important;
-  padding: 0 !important;
-  margin: 0 !important;
-  border: none !important;
-  display: inline-block !important;
-}
-
-.widget-type-iframe .widget-header div::after {
-  content: "Proxmox";
-  visibility: visible;
-  position: absolute;
-  left: 0;
-}
-
-.widget-type-iframe .widget-header::before {
-  content: "PROXMOX" !important;
-  display: inline-block !important;
-  position: static !important;
-}
-
-iframe {
+/* Proxmox Widget */
+iframe[src="https://your_iframe_url_1"] {
   opacity: 0;
-  animation: fadeIn 0.3s ease 0.3s forwards;
+  animation: fadeIn 0.5s ease 0.5s forwards;
   width: 800px;
-  height: 1200px;
+  height: 700px;
   overflow: hidden;
   transform: scale(0.4);
   transform-origin: 0 0;
+}
+
+/* Weather Widget */
+iframe[src="https://your_iframe_url_2"] {
+  opacity: 0;
+  animation: fadeIn 0.5s ease 0.5s forwards;
+  overflow: hidden;
+  transform: scale(0.8);
+  transform-origin: 0 0;
+  width: 380px;
+  height: 160px;
+}
+
+.widget-content.widget-content-frameless:has(iframe[src="https://your_iframe_url_2"]) {
+  height: 130px;
 }
 
 /* Cards & List Items */
@@ -168,6 +152,10 @@ li.flex:hover .bookmarks-icon-container img {
 
 .bookmarks-group .list.list-gap-2 li:nth-child(2n+3) {
   margin-top: 1rem;
+}
+
+.bookmarks-icon {
+  opacity: 1;
 }
 
 .bookmarks-icon-container {
