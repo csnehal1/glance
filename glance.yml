@@ -1,9 +1,9 @@
 server:
-  assets-path: /your_path/glance/assets
+  assets-path: /home/baer/glance/assets
 branding:
   hide-footer: true
-  logo-url: https://insert_logo_url
-  favicon-url: https://insert_icon_url
+  logo-url: https://your_logo_url
+  favicon-url: https://your_icon_url
 theme:
   custom-css-file: /assets/style.css
 
@@ -12,10 +12,11 @@ pages:
     columns:
       - size: small
         widgets:
-          - type: weather
-            location: Your, Location
-            units: metric
-            hour-format: 24h
+
+          - type: iframe
+            title: Weather
+            source: https://your_iframe_url_2
+            height: 130
 
           - type: rss
             limit: 10
@@ -88,32 +89,47 @@ pages:
               - UCOk-gHyjcWZNj3Br4oxwh0A # TechnoTim
 
       - size: small
-        widgets: 
+        widgets:
+
+        
+        
           - type: bookmarks
             groups:
               - links:
                   - title: Reddit
                     url: https://reddit.com
-                    icon: si:reddit
+                    icon: https://cdn.simpleicons.org/reddit/FF4500
                     hide-arrow: true
                     
                   - title: YouTube
                     url: https://youtube.com
-                    icon: si:youtube
+                    icon: https://cdn.simpleicons.org/youtube/FF0000
                     hide-arrow: true
 
                   - title: Amazon
                     url: https://amazon.de
-                    icon: si:amazon
+                    icon: https://cdn.simpleicons.org/amazon/FF9900
                     hide-arrow: true
+
+                  - title: Nextcloud
+                    url: https://your_nextcloud_url
+                    icon: https://cdn.simpleicons.org/nextcloud/0082C9
+                    hide-arrow: true
+
+                  - title: Webmin
+                    url: /webmin
+                    icon: https://cdn.simpleicons.org/webmin/7DA0D0
+                    hide-arrow: true
+
           - type: releases
             cache: 1d
             token:
             repositories:
               - it-baer/nc-iframewidget
               - go-gitea/gitea
+              - glanceapp/glance
 
           - type: iframe
             label: Proxmox
-            source: https://example.org
+            source: https://your_iframe_url_1
             height: 400
